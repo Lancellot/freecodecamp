@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Teste Freecode Camp</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title"> Formulario PR</h1>
+    <p id="description">Só preenche</p>
+    <form id="survey-form" method="post" action="https://register-demo.freecodecamp.org" >
+        <fieldset>
+            <label for="name" id="name-label">Nome:  <input id="name" name="name" type="text" placeholder="Nome" required/></label>
+            <label for="email" id="email-label">E-mail:  <input id="email" name="email" type="email" placeholder="E-mail" required/></label>
+            <label for="number" id="number-label">Numero:
+              <select id="dropdown" >
+                <option value="1">51</option>
+                <option value="2">52</option>
+                </select> <input id="number" type="number" max="12" min="10" placeholder="Numero"/></label>
+            <label for="dropdown" id="dropdown">Sexo:  
+                <select id="dropdown" >
+                    <option value="">(selecione um)</option>
+                    <option value="1">Masculino</option>
+                    <option value="2">Feminino</option>
+                </select>
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Tem Carteira</legend>
+            <label for="carteira-s"><input type="radio" name="carteira-sn" value="1">Sim</label>
+            <label for="carteira-n"><input type="radio" name="carteira-sn" value="2">Não</label>
+        </fieldset>
+        <fieldset>
+            <legend>Tipo de Carteira</legend>
+            <label for="carteira-a"><input type="checkbox" value="a" />A</label>
+            <label for="carteira-b"><input type="checkbox" value="b" />B</label>
+            <label for="carteira-ab"><input type="checkbox" value="ab" />AB</label>
+        </fieldset>
+        <fieldset>
+            <label for="bio">Fale sobre voce: </label>
+            <textarea name="bio" id="bio" rows="5" cols="30" placeholder="falaaaaaaaaa"></textarea>
+        </fieldset>
+        <label for="submit"><input id="submit" type="submit" value="Submit" /></label>
+
+    </form>
+  </body>
+</html>
