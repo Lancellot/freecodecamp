@@ -1,3 +1,4 @@
+Sobre o curso:
 Nesta Certificação de Web Design Responsivo, você aprenderá as linguagens que os desenvolvedores usam para criar páginas da web: HTML (Hypertext Markup Language) para conteúdo e CSS (Cascading Style Sheets) para design.
 
 Primeiro, você criará um aplicativo de fotos de gatos para aprender o básico de HTML e CSS. Mais tarde, você aprenderá técnicas modernas como variáveis ​​CSS criando um pinguim e as melhores práticas para acessibilidade criando um site de quiz.
