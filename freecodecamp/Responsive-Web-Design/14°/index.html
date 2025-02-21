@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <header>JS Documentation</header>
+        <a class="nav-link" href="#Introduction">Introduction</a>
+        <a class="nav-link" href="#Variables">Variables</a>
+        <a class="nav-link" href="#Data_Types">Data Types</a>
+        <a class="nav-link" href="#Functions">Functions</a>
+        <a class="nav-link" href="#Loops">Loops</a>
+    </nav>
+
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <p>JavaScript is a cross-platform, object-oriented scripting language.</p>
+            <p>It is a small and lightweight language. Inside a host environment, JavaScript can be connected to the objects of its environment to provide programmatic control over them.</p>
+            <code>console.log('Hello World');</code>
+            <ul>
+                <li>Client-side JavaScript</li>
+                <li>Server-side JavaScript</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="Variables">
+            <header>Variables</header>
+            <p>Variables are containers for storing data values.</p>
+            <code>let x = 5;</code>
+            <p>Three ways to declare variables:</p>
+            <code>var x = 5;\nconst y = 10;\nlet z = 15;</code>
+            <ul>
+                <li>var - function scope</li>
+                <li>let - block scope</li>
+                <li>const - block scope, immutable</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="Data_Types">
+            <header>Data Types</header>
+            <p>JavaScript has 8 basic data types:</p>
+            <code>let message = "hello"; // string</code>
+            <ul>
+                <li>Number</li>
+                <li>String</li>
+                <li>Boolean</li>
+                <li>Null</li>
+                <li>Undefined</li>
+                <li>BigInt</li>
+                <li>Symbol</li>
+                <li>Object</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="Functions">
+            <header>Functions</header>
+            <p>A function is a block of code designed to perform a particular task.</p>
+            <code>function square(number) {\n  return number * number;\n}</code>
+            <p>Arrow functions provide concise syntax:</p>
+            <code>const square = (number) => number * number;</code>
+        </section>
+
+        <section class="main-section" id="Loops">
+            <header>Loops</header>
+            <p>Loops can execute a block of code multiple times.</p>
+            <code>for (let i = 0; i < 5; i++) {\n  console.log(i);\n}</code>
+            <p>Different types of loops:</p>
+            <ul>
+                <li>for</li>
+                <li>while</li>
+                <li>do...while</li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
