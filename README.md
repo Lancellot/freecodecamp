@@ -48,7 +48,7 @@ Cada certificação terá sua própria pasta contendo os projetos obrigatórios 
 
 ## 📌 Links Úteis
 
-- Meu perfil no FreeCodeCamp: [Seu Perfil](https://www.freecodecamp.org/lancellot)
+- Meu perfil no FreeCodeCamp: [Assis](https://www.freecodecamp.org/lancellot)
 - Site oficial do FreeCodeCamp: [https://www.freecodecamp.org/](https://www.freecodecamp.org/)
 
 ## 📜 Licença
