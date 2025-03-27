@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogo Pedra, Papel e Tesoura</title>
+    <link rel="stylesheet" href="./src/css/styles.css" />
+  </head>
+  <body>
+    <h1>Vamos jogar Pedra, Papel e Tesoura!</h1>
+    <main>
+      <details class="rules-container">
+        <summary>Regras do jogo</summary>
+
+        <p>Você jogará contra o computador.</p>
+        <p>Você pode escolher entre Pedra, Papel e Tesoura.</p>
+        <p>O primeiro a alcançar três pontos vence.</p>
+
+        <p>Aqui estão as regras para ganhar um ponto no jogo:</p>
+        <ul>
+          <li>Pedra vence Tesoura</li>
+          <li>Tesoura vence Papel</li>
+          <li>Papel vence Pedra</li>
+        </ul>
+        <p>
+          Se o jogador e o computador escolherem a mesma opção (ex. Papel e
+          Papel), ninguém ganha o ponto.
+        </p>
+      </details>
+
+      <div class="score-container">
+        <strong
+          >Pontuação do Jogador: <span class="score" id="player-score">0</span></strong
+        >
+        <strong
+          >Pontuação do Computador:
+          <span class="score" id="computer-score">0</span></strong
+        >
+      </div>
+
+      <section class="options-container">
+        <h2>Escolha uma opção:</h2>
+        <div class="btn-container">
+          <button id="rock-btn" class="btn">Pedra</button>
+          <button id="paper-btn" class="btn">Papel</button>
+          <button id="scissors-btn" class="btn">Tesoura</button>
+        </div>
+      </section>
+
+      <div class="results-container">
+        <p id="results-msg"></p>
+        <p id="winner-msg"></p>
+        <button class="btn" id="reset-game-btn">Jogar novamente?</button>
+      </div>
+    </main>
+    <script src="./src/js/script.js"></script>
+  </body>
+</html>
