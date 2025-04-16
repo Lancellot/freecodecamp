@@ -1,48 +1,48 @@
-document.getElementById('convert-btn').addEventListener('click', () => {
-    const input = document.getElementById('number').value;
-    const output = document.getElementById('output');
-    const number = parseInt(input);
+body {
+    background: #f0f2f5;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
 
-    if (!input) {
-        output.textContent = "Please enter a valid number";
-        return;
-    }
-    
-    if (number < 1) {
-        output.textContent = "Please enter a number greater than or equal to 1";
-        return;
-    }
-    
-    if (number >= 4000) {
-        output.textContent = "Please enter a number less than or equal to 3999";
-        return;
-    }
+.container {
+    text-align: center;
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
 
-    const romanNumerals = [
-        { value: 1000, numeral: 'M' },
-        { value: 900, numeral: 'CM' },
-        { value: 500, numeral: 'D' },
-        { value: 400, numeral: 'CD' },
-        { value: 100, numeral: 'C' },
-        { value: 90, numeral: 'XC' },
-        { value: 50, numeral: 'L' },
-        { value: 40, numeral: 'XL' },
-        { value: 10, numeral: 'X' },
-        { value: 9, numeral: 'IX' },
-        { value: 5, numeral: 'V' },
-        { value: 4, numeral: 'IV' },
-        { value: 1, numeral: 'I' }
-    ];
+h1 {
+    margin-bottom: 1rem;
+}
 
-    let result = '';
-    let remaining = number;
+.converter input {
+    padding: 0.5rem;
+    width: 150px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
 
-    romanNumerals.forEach(({ value, numeral }) => {
-        while (remaining >= value) {
-            result += numeral;
-            remaining -= value;
-        }
-    });
+.converter button {
+    padding: 0.5rem 1rem;
+    margin-left: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
-    output.textContent = result;
-});
+.converter button:hover {
+    background: #0056b3;
+}
+
+#output {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #333;
+}
