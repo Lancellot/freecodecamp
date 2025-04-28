@@ -5,7 +5,7 @@ Este repositório contém meu progresso e projetos desenvolvidos durante os curs
 ## 📜 Certificações Concluídas
 
 - [x] Responsive Web Design
-- [ ] JavaScript Algorithms and Data Structures
+- [x] JavaScript Algorithms and Data Structures
 - [ ] Front End Development Libraries
 - [ ] Data Visualization
 - [ ] Back End Development and APIs
