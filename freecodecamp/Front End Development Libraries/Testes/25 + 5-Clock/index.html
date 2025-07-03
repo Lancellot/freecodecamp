@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Relógio 25 + 5</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <div id="break-label">Duração da Pausa
+      <div class="control">
+        <button id="break-decrement">-</button>
+        <span id="break-length">5</span>
+        <button id="break-increment">+</button>
+      </div>
+    </div>
+
+    <div id="session-label">Duração da Sessão
+      <div class="control">
+        <button id="session-decrement">-</button>
+        <span id="session-length">25</span>
+        <button id="session-increment">+</button>
+      </div>
+    </div>
+
+    <div id="timer">
+      <h2 id="timer-label">Sessão</h2>
+      <div id="time-left">25:00</div>
+    </div>
+
+    <div class="buttons">
+      <button id="start_stop">Iniciar / Pausar</button>
+      <button id="reset">Redefinir</button>
+    </div>
+
+    <audio id="beep" src="https://actions.google.com/sounds/v1/alarms/alarm_clock.ogg"></audio>
+  </div>
+
+  <!-- Script de teste do freeCodeCamp -->
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
