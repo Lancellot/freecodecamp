@@ -6,7 +6,7 @@ Este repositório contém meu progresso e projetos desenvolvidos durante os curs
 
 - [x] Responsive Web Design
 - [x] JavaScript Algorithms and Data Structures
-- [ ] Front End Development Libraries
+- [x] Front End Development Libraries
 - [ ] Data Visualization
 - [ ] Back End Development and APIs
 - [ ] Quality Assurance
