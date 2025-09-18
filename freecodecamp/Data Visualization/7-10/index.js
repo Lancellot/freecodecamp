@@ -1,6 +1,11 @@
+
 <style>
   .bar {
     width: 25px;
+    height: 100px;
+    /* Add your code below this line */
+    margin: 2px;
+    /* Add your code above this line */
     display: inline-block;
     background-color: blue;
   }
@@ -15,6 +20,6 @@
       .enter()
       .append('div')
       .attr('class', 'bar')
-      .style('height', d => d + 'px'); // altura dinâmica com base nos dados
+      .style('height', d => (d * 10) + 'px'); // escalando em 10x
   </script>
 </body>
