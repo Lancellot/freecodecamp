@@ -1,0 +1,7 @@
+/* Seleciona apenas os elementos que são DESCENDENTES de um div */
+div p {
+  background-color: yellow;
+  color: red;
+  font-size: 20px;
+  text-align: center;
+}
